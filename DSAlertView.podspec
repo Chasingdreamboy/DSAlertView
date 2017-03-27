@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.dependency 'CAAnimationBlocks', '~> 0.0.1'
 
   s.public_header_files = 'DSAlertView/*.h'
-  s.source_files = 'DSAlertView/**/*.{h,m}'
+  s.source_files = 'DSAlertView','DSAlertView/**/*.{h,m}'
 end
