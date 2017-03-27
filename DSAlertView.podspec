@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'Open Source, customisable clone of UIAlertView for iOS 7'
   s.homepage = 'https://github.com/Chasingdreamboy/DSAlertView'
 #   s.authors  = { 'Lee McDermott' => 'lmalertview@leemcdermott.co.uk' }
-  s.source   = { :git => https://github.com/Chasingdreamboy/DSAlertView.git', :tag => 'v1.1.0' }
+  s.source   = { :git => 'https://github.com/Chasingdreamboy/DSAlertView.git', :tag => 'v1.1.0' }
   s.requires_arc = true
 
   s.ios.deployment_target = '7.0'
